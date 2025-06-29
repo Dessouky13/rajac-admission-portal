@@ -31,6 +31,9 @@
     "search": "Search by Father's Name or Student Name...",
     "refresh": "Refresh",
     "noApplications": "No applications found."
+    "closedFormsTitle": "Closed Forms & Quizzes",
+    "closedFormsDesc": "Here you can view all previous or closed forms and exams.",
+    "closedFormsPlaceholder": "No closed forms or quizzes to display yet."
   },
   "auth": {
     "signup": {
