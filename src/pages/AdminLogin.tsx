@@ -79,6 +79,12 @@ const AdminLogin: React.FC = () => {
           </div>
         )}
       </form>
+      <button
+        className="mt-4 text-green-700 underline hover:text-green-900"
+        onClick={() => navigate("/")}
+      >
+        Back to Home
+      </button>
     </div>
   );
 };
