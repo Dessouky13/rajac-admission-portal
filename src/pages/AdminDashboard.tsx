@@ -188,6 +188,13 @@ const AdminDashboard: React.FC = () => {
             ))
           )}
         </div>
+        {/* Closed Forms/Quizzes Section */}
+        <div className="mt-12">
+          <h2 className="text-2xl font-bold text-green-700 mb-4">{t("admin.closedFormsTitle", "Closed Forms & Quizzes")}</h2>
+          <p className="text-gray-600 mb-4">{t("admin.closedFormsDesc", "Here you can view all previous or closed forms and exams.")}</p>
+          {/* TODO: List closed forms/quizzes here */}
+          <div className="text-gray-400 italic">{t("admin.closedFormsPlaceholder", "No closed forms or quizzes to display yet.")}</div>
+        </div>
       </div>
     </div>
   );
